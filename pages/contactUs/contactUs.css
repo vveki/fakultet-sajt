@@ -1,0 +1,18 @@
+
+.contactUs{
+    display: flex;
+    width: 100%;
+    background-color: #024B5E;
+}
+.contact-form-section{
+    width: 50%;
+    background-color: #797979b5;
+    border-radius: 8px;
+    margin: 40px 0px 40px 0px;
+}
+.contact-form-div{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

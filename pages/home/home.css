@@ -1,0 +1,162 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #024B5E;
+}
+
+
+header {
+    background-color: #797979b5;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+   
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    width: 60px;
+    margin-right: 10px;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header nav ul li button {
+    background-color: #fff;
+    color: #005f73;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+header nav ul li button:hover {
+    background-color: #004e60;
+    color: white;
+}
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.carousel {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: #024B5E;
+}
+
+.carousel .card {
+    background-color: white;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.carousel .card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.carousel .card h3 {
+    margin: 15px 0;
+    font-size: 1.5rem;
+}
+
+.carousel .card p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.carousel .card button {
+    background-color: #005f73;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.carousel .card button:hover {
+    background-color: #004e60;
+}
+
+/* Footer Section */
+footer {
+    background-color: #005f73;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+
+
+.social-media a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+
+.social-media a:hover {
+    color: #ff9800;
+}
+.top-section {
+    background: 
+        url('/images/tnc_14408263_v3 (1) 1.png') top no-repeat,
+        #024B5E;
+    background-size: 100% auto; /* Stretch image to full width */
+    background-color: #024B5E; /* Fallback color below the image */
+    height: 595px;
+}
+
+
+

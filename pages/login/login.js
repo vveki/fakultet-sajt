@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let users = [];
 
-    fetch('pages/login/users.json')
+    fetch('/login/users.json')
         .then(response => response.json())
         .then(data => {
             users = data;

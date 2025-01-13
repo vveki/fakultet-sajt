@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (!hasError) {
             const user = users.find(user => user.email === email);
-            const hashedPassword = password;
+            const hashedPassword = hash(password);
 
             if (user && user.password === hashedPassword) {
                 localStorage.setItem('isLoggedIn', 'true');

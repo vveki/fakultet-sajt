@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 localStorage.setItem('userEmail', email);
 
                 alert(`Logged in as: ${email}`);
-                window.location.href = '/Pages/home/home.html';
+                window.location.href = '/pages/home/home.html';
             } else {
                 alert('Invalid email or password');
             }

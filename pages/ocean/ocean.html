@@ -19,13 +19,17 @@
             <a href="#"><i class="fab fa-facebook"></i></a>
         </div>
     </div>
-  
     <header>
         <div class="logo">
             <img src="\images\bali__indonesia__2_-removebg-preview.png" alt="Save Ocean Logo">
         </div>
         <nav>
-            <ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul id="navLinks" class="hidden">
                 <li><a href="/pages/home/home.html">Home</a></li>
                 <li><a href="/pages/ocean/ocean.html">Ocean</a></li>
                 <li><a href="/pages/gallery/gallery.html">Gallery</a></li>
@@ -41,6 +45,7 @@
         <h2>Select Ocean</h2>
         <select name="ocean" id="ocean-select">
             <!-- Ocean options will be populated here -->
+        
         </select>
         <div id="ocean-info">
             <!-- Ocean information will be displayed here -->
@@ -58,7 +63,7 @@
     const oceanSelect = document.getElementById('ocean-select');
     const oceanInfo = document.getElementById('ocean-info');
 
-    fetch('https://vebdizajn-4.onrender.com/api/vebdizajn/okeani')
+    fetch('https://wc-wd-api.onrender.com/api/frizer')
   .then(response => {
     if (!response.ok) {
       console.error('API response error:', response.status);

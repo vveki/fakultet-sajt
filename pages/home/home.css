@@ -160,3 +160,24 @@ footer p {
 
 
 
+@media screen and (max-width: 768px) {
+    .top-section {
+        background: 
+            url('/images/image (1).png') top no-repeat,
+            #024B5E;
+        background-size: 100% auto; /* Stretch image to full width */
+        background-color: #024B5E; /* Fallback color below the image */
+        height: 450px;
+    }
+    .top-of-top-section{
+        display: none;
+    }
+    .carousel {
+        flex-direction: column;
+    }
+    .carousel .card {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+

@@ -100,5 +100,46 @@ footer p {
     color: #ff9800;
 }
 
+.hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 25px;
+    height: 20px;
+    cursor: pointer;
+}
 
+.hamburger span {
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 2px;
+}
+
+@media screen and (max-width: 768px) {
+
+    ul.hidden {
+        display: none;
+    }
+    .hamburger {
+        display: flex;
+    }
+
+    ul {
+        position: absolute;
+        top: 70px;
+        right: 0;
+        flex-direction: column;
+        background-color: #3b3b3b;
+        width: 100%;
+        padding: 20px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        display: none;
+    }
+
+    ul.show {
+        display: flex;
+    }
+}
 

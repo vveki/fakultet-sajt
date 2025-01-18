@@ -24,7 +24,7 @@ p{
 }
 #map{
     width: 400px; 
-    height: auto;
+    height: 250px;
 }
 @media screen and (max-width: 768px) {
     .contactUs{

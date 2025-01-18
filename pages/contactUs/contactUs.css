@@ -1,8 +1,11 @@
-
+p{
+    color: white;
+}
 .contactUs{
     display: flex;
     width: 100%;
     background-color: #024B5E;
+    padding-top: 50px;
 }
 .contact-form-section{
     width: 50%;
@@ -15,6 +18,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#rightDiv{
+    margin-top: 40px;
+}
+#map{
+    width: 400px; 
+    height: auto;
 }
 @media screen and (max-width: 768px) {
     .contactUs{
@@ -34,5 +44,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    #map{
+        width: 100%; 
+    }
+    #rightDiv{
+       width: 80%;
+       margin: auto;
     }
 }

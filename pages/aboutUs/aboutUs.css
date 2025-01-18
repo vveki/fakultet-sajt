@@ -1,0 +1,23 @@
+.center{
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 30px;
+}
+.center p{
+    margin-top: 30px;
+}
+.aboutUs{
+    height: calc(100vh - 195px);
+}
+@media screen and (max-width: 768px) {
+.top-of-top-section{
+    display: none;
+}
+.aboutUs{
+    height: auto;
+}
+.center{
+    max-width: 80%;
+   
+}
+}

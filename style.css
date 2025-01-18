@@ -22,6 +22,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+    height: 80px;
    
 }
 
@@ -59,6 +60,7 @@ header nav ul li button {
     border-radius: 8px;
     cursor: pointer;
     font-size: 20px;
+    
 }
 
 header nav ul li button:hover {
@@ -80,6 +82,7 @@ footer {
     color: white;
     text-align: center;
     padding: 20px;
+    height: 70px;
 }
 
 footer p {
@@ -128,10 +131,10 @@ footer p {
 
     ul {
         position: absolute;
-        top: 70px;
+        top: 80px;
         right: 0;
         flex-direction: column;
-        background-color: #3b3b3b;
+        background-color: #797979;
         width: 100%;
         padding: 20px;
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);

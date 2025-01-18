@@ -46,23 +46,22 @@
        <div class="contact-form-div">
         <section class="contact-form-section py-5">
             <div class="container">
-              
                 <form>
                     <div class="mb-3">
                         <label for="name" class="form-label">Ime i prezime</label>
-                        <input type="text" class="form-control" id="name" placeholder="Unesite vaše ime">
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Unesite vaše ime">
                     </div>
                     <div class="mb-3">
                         <label for="email" class="form-label">Email adresa</label>
-                        <input type="email" class="form-control" id="email" placeholder="Unesite vašu email adresu">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Unesite vašu email adresu">
                     </div>
                     <div class="mb-3">
                         <label for="subject" class="form-label">Predmet</label>
-                        <input type="text" class="form-control" id="subject" placeholder="Unesite predmet poruke">
+                        <input type="text" class="form-control" id="subject" name="subject" placeholder="Unesite predmet poruke">
                     </div>
                     <div class="mb-3">
                         <label for="message" class="form-label">Poruka</label>
-                        <textarea class="form-control" id="message" rows="5" placeholder="Unesite vašu poruku"></textarea>
+                        <textarea class="form-control" id="message" name="message" rows="5" placeholder="Unesite vašu poruku"></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary w-100">Pošalji</button>
                 </form>
@@ -70,11 +69,12 @@
         </section>
 
     </div>
-        <div>
-            <p>dfjoslngklds</p>
-            <p>dfjoslngklds</p>
-            <p>dfjoslngklds</p>
-            <p>dfjoslngklds</p>
+        <div id="rightDiv">
+            <img src="/images/image (5).png" alt="" id="map">
+            <p> <i class="fab fa-instagram"></i> dfjoslngklds</p>
+            <p> <i class="fab fa-youtube"></i> dfjoslngklds</p>
+            <p> <i class="fab fa-twitter"></i> dfjoslngklds</p>
+            <p> <i class="fab fa-facebook"></i> dfjoslngklds</p>
         </div>
     </section>
 
@@ -84,5 +84,7 @@
        
     </footer>
     <script src="/script.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="contactUs.js"></script>
 </body>
 </html>

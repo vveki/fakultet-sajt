@@ -12,3 +12,11 @@
     border-radius: 8px;
     object-fit: cover;
 }
+@media screen and (max-width: 768px) {
+.top-of-top-section{
+    display: none;
+}
+.gallery {
+grid-template-columns: repeat(1, 1fr);
+}
+}

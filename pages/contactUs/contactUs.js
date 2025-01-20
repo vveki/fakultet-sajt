@@ -1,22 +1,21 @@
 
 (function () {
-    emailjs.init('CIqRBkdXWNfdTS1W8'); // Replace 'YOUR_USER_ID' with your EmailJS user ID
+    emailjs.init('CIqRBkdXWNfdTS1W8');
 })();
 
-// Handle form submission
 document.addEventListener('DOMContentLoaded', () => {
     const form = document.querySelector('form');
 
     form.addEventListener('submit', function (e) {
-        e.preventDefault(); // Prevent the default form submission
+        e.preventDefault(); 
 
-        const serviceID = 'service_a4m9lhm'; // Replace with your EmailJS service ID
-        const templateID = 'template_7ky650i'; // Replace with your EmailJS template ID
+        const serviceID = 'service_a4m9lhm'; 
+        const templateID = 'template_7ky650i';
 
         emailjs.sendForm(serviceID, templateID, this)
             .then(() => {
                 alert('Poruka je uspešno poslata!');
-                form.reset(); // Optional: Reset the form fields
+                form.reset();
             }, (err) => {
                 alert('Greška pri slanju poruke: ' + JSON.stringify(err));
             });

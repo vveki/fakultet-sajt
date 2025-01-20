@@ -11,17 +11,17 @@
 </head>
 <body>
     <div class="top-of-top-section">
-        <span>Recycle plastic, SAVE OCEAN!</span>
+        <span data-text-en="Recycle plastic, SAVE OCEAN!" data-text-sr="Recikliraj plastiku, SAČUVAJ OKEAN!">Recycle plastic, SAVE OCEAN!</span>
         <div class="social-media">
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-youtube"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.x.com/"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
         </div>
     </div>
   
     <header>
-        <div class="logo">
+        <div class="logo" onclick="window.location.href='/pages/home/home.html'">
             <img src="\images\bali__indonesia__2_-removebg-preview.png" alt="Save Ocean Logo">
         </div>
         <nav>
@@ -31,13 +31,20 @@
                 <span></span>
             </div>
             <ul id="navLinks" class="hidden">
-                <li><a href="/pages/home/home.html">Home</a></li>
-                <li><a href="/pages/ocean/ocean.html">Ocean</a></li>
-                <li><a href="/pages/gallery/gallery.html">Gallery</a></li>
-                <li><a href="/pages/aboutUs/aboutUs.html">About Us</a></li>
-                <li><a href="/pages/contactUs/contactUs.html">Contact Us</a></li>  
-                <li><button class="login" id="loginButton" style="display:none;">Log in</button></li>
-                <li><button class="logout" id="logoutButton" style="display:none;">Log out</button></li>
+                <li>
+                    <div class="language-toggle">
+                     <span id="toggle-en" data-lang="en">EN</span>
+                     <span id="toggle-sr" data-lang="sr">SR</span>
+                    </div>
+                </li>
+                <li><a href="/pages/home/home.html" data-text-en="Home" data-text-sr="Početna">Home</a></li>
+                <li><a href="/pages/ocean/ocean.html"  data-text-en="Oceans" data-text-sr="Okeni">Oceans</a></li>
+                <li><a href="/pages/gallery/gallery.html" data-text-en="Gallery" data-text-sr="Galerija">Gallery</a></li>
+                <li><a href="/pages/aboutUs/aboutUs.html" data-text-en="About Us" data-text-sr="O nama">About Us</a></li>
+                <li><a href="/pages/contactUs/contactUs.html" data-text-en="Contact Us" data-text-sr="Kontakt">Contact Us</a></li>  
+                <li><button class="login" id="loginButton" style="display:none;" data-text-en="Login" data-text-sr="Prijavi se">Log in</button></li>
+                <li><button class="logout" id="logoutButton" style="display:none;" data-text-en="Log out" data-text-sr="Odjavi se">Log out</button></li>
+               
             </ul>
         </nav>
     </header>
@@ -46,16 +53,25 @@
 
     <section class="aboutUs">
         <div class="center">
-        <h2 style="color: yellow;">About Us - Edu Ocean</h2>
-        <p style="font-size: 24; color: white;">Welcome to Edu Ocean, your gateway to exploring the fascinating underwater world!<br>
-            Our mission is simple yet vital: to educate, inspire, and empower people to learn about the diverse marine life that thrives beneath the waves. We’re passionate about showcasing the beauty and importance of specific fish species found in oceans across the globe while raising awareness about those that are endangered and in urgent need of protection.<br>
-            At Edu Ocean, we believe knowledge is the key to action. That’s why we’ve created a platform where you can:<br>
-            •Learn About Marine Life: Discover detailed information about a wide variety of fish species, their habitats, behaviors, and unique roles in the ecosystem.<br>
-            •Understand the Threats: Dive deep into the challenges that marine life faces, from overfishing and habitat destruction to climate change and pollution.<br>
-            •Take Action: Join us in our mission to save the oceans. By learning about these species, you’re taking the first step toward advocating for their protection and ensuring their survival for future generations.<br>
-            Through engaging content, visuals, and resources, Edu Ocean strives to create a community of ocean lovers and conservationists who are dedicated to preserving marine biodiversity. Together, we can make waves of change.<br>
-            Join us on this journey to learn, share, and save the oceans—because every species matters, and every action counts.</p>
-        
+            <h2 style="color: yellow;" data-text-en="About Us - Edu Ocean" data-text-sr="O nama - Edu Ocean">About Us - Edu Ocean</h2>
+            <p style="font-size: 24; color: white;" 
+            data-text-en="Welcome to Edu Ocean, your gateway to exploring the fascinating underwater world!
+                        Our mission is simple yet vital: to educate, inspire, and empower people to learn about the diverse marine life that thrives beneath the waves. We’re passionate about showcasing the beauty and importance of specific fish species found in oceans across the globe while raising awareness about those that are endangered and in urgent need of protection.
+                        At Edu Ocean, we believe knowledge is the key to action. That’s why we’ve created a platform where you can:
+                        • Learn About Marine Life: Discover detailed information about a wide variety of fish species, their habitats, behaviors, and unique roles in the ecosystem.
+                        • Understand the Threats: Dive deep into the challenges that marine life faces, from overfishing and habitat destruction to climate change and pollution.
+                        • Take Action: Join us in our mission to save the oceans. By learning about these species, you’re taking the first step toward advocating for their protection and ensuring their survival for future generations.
+                        Through engaging content, visuals, and resources, Edu Ocean strives to create a community of ocean lovers and conservationists who are dedicated to preserving marine biodiversity. Together, we can make waves of change.
+                        Join us on this journey to learn, share, and save the oceans—because every species matters, and every action counts."
+            data-text-sr="Dobrodošli u Edu Ocean, vašu kapiju za istraživanje fascinantnog podvodnog sveta!
+                        Naša misija je jednostavna, ali ključna: edukovati, inspirisati i osnažiti ljude da uče o raznovrsnom morskom životu koji cveta ispod talasa. Strastveni smo u prikazivanju lepote i značaja specifičnih vrsta riba koje se nalaze u okeanima širom sveta, dok podižemo svest o onima koje su ugrožene i kojima je hitno potrebna zaštita.
+                        U Edu Ocean-u verujemo da je znanje ključ za akciju. Zato smo kreirali platformu gde možete:
+                        • Naučiti o morskom životu: Otkrijte detaljne informacije o širokom spektru vrsta riba, njihovim staništima, ponašanjima i jedinstvenim ulogama u ekosistemu.
+                        • Razumeti pretnje: Dublje se upoznajte sa izazovima s kojima se suočava morski život, od prekomernog ribolova i uništavanja staništa do klimatskih promena i zagađenja.
+                        • Preduzeti akciju: Pridružite nam se u našoj misiji spašavanja okeana. Učeći o ovim vrstama, pravite prvi korak ka zalaganju za njihovu zaštitu i obezbeđivanje njihovog opstanka za buduće generacije.
+                        Kroz zanimljiv sadržaj, vizuale i resurse, Edu Ocean teži da stvori zajednicu ljubitelja okeana i konzervatora koji su posvećeni očuvanju morske biodiverzifikacije. Zajedno možemo napraviti talase promena.
+                        Pridružite nam se na ovom putovanju da učimo, delimo i spašavamo okeane—jer svaka vrsta je važna, a svaka akcija se računa.">
+               </p>
         </div>
     </section>
 

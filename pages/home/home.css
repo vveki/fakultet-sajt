@@ -124,7 +124,6 @@ header nav ul li button:hover {
     background-color: #004e60;
 }
 
-/* Footer Section */
 footer {
     background-color: #005f73;
     color: white;
@@ -153,8 +152,8 @@ footer p {
     background: 
         url('/images/tnc_14408263_v3 (1) 1.png') top no-repeat,
         #024B5E;
-    background-size: 100% auto; /* Stretch image to full width */
-    background-color: #024B5E; /* Fallback color below the image */
+    background-size: 100% auto; 
+    background-color: #024B5E;
     height: 595px;
 }
 .carousel .card {
@@ -172,8 +171,8 @@ footer p {
         background: 
             url('/images/image (1).png') top no-repeat,
             #024B5E;
-        background-size: 100% auto; /* Stretch image to full width */
-        background-color: #024B5E; /* Fallback color below the image */
+        background-size: 100% auto;
+        background-color: #024B5E; 
         height: 450px;
     }
     .top-of-top-section{

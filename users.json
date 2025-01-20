@@ -1,13 +1,5 @@
 [
     {
-        "email": "user@example.com",
-        "password": ""
-    },
-    {
-        "email": "admin@example.com",
-        "password": "123456789"
-    },
-    {
         "email": "velid.dzemic@gmail.com",
         "password": "a201f765dae95848d294e44309684e4553cbfdd7e310e6dc4b7b4e8db086d8acdbd99efd585f4fd5031847f1c6d1a7c42c15bb3050141883b0bba9f7355603fa"
     }

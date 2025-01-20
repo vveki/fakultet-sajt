@@ -1,11 +1,10 @@
-/* Resetting margin and padding for all elements */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body and general layout */
 body {
     font-family: 'Inter', sans-serif;
     line-height: 1.6;
@@ -13,7 +12,6 @@ body {
     background-color: #024B5E;
 }
 
-/* Header */
 header {
     background-color: #797979b5;
     color: white;
@@ -119,6 +117,34 @@ footer p {
     background-color: white;
     border-radius: 2px;
 }
+.language-toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #024B5E;
+    border-radius: 25px;
+    width: 70px;
+    padding: 2px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.language-toggle span {
+    flex: 1;
+    text-align: center;
+    padding: 3px 0;
+    font-size: 0.5rem;
+    color: rgba(255, 255, 255, 0.5); 
+    transition: all 0.3s ease;
+}
+
+.language-toggle span.active {
+    background-color: #ffffff; 
+    color: #024B5E;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
 
 @media screen and (max-width: 768px) {
 

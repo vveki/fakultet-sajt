@@ -11,7 +11,7 @@
 </head>
 <body>
     <div class="top-of-top-section">
-        <span>Recycle plastic, SAVE OCEAN!</span>
+        <span data-text-en="Recycle plastic, SAVE OCEAN!" data-text-sr="Recikliraj plastiku, SAČUVAJ OKEAN!">Recycle plastic, SAVE OCEAN!</span>
         <div class="social-media">
             <a href="#"><i class="fab fa-instagram"></i></a>
             <a href="#"><i class="fab fa-youtube"></i></a>
@@ -20,7 +20,7 @@
         </div>
     </div>
     <header>
-        <div class="logo">
+        <div class="logo" onclick="window.location.href='/pages/home/home.html'">
             <img src="\images\bali__indonesia__2_-removebg-preview.png" alt="Save Ocean Logo">
         </div>
         <nav>
@@ -30,13 +30,20 @@
                 <span></span>
             </div>
             <ul id="navLinks" class="hidden">
-                <li><a href="/pages/home/home.html">Home</a></li>
-                <li><a href="/pages/ocean/ocean.html">Ocean</a></li>
-                <li><a href="/pages/gallery/gallery.html">Gallery</a></li>
-                <li><a href="/pages/aboutUs/aboutUs.html">About Us</a></li>
-                <li><a href="/pages/contactUs/contactUs.html">Contact Us</a></li>  
-                <li><button class="login" id="loginButton" style="display:none;">Log in</button></li>
-                <li><button class="logout" id="logoutButton" style="display:none;">Log out</button></li>
+                <li>
+                    <div class="language-toggle">
+                     <span id="toggle-en" data-lang="en">EN</span>
+                     <span id="toggle-sr" data-lang="sr">SR</span>
+                    </div>
+                </li>
+                <li><a href="/pages/home/home.html" data-text-en="Home" data-text-sr="Početna">Home</a></li>
+                <li><a href="/pages/ocean/ocean.html"  data-text-en="Oceans" data-text-sr="Okeni">Oceans</a></li>
+                <li><a href="/pages/gallery/gallery.html" data-text-en="Gallery" data-text-sr="Galerija">Gallery</a></li>
+                <li><a href="/pages/aboutUs/aboutUs.html" data-text-en="About Us" data-text-sr="O nama">About Us</a></li>
+                <li><a href="/pages/contactUs/contactUs.html" data-text-en="Contact Us" data-text-sr="Kontakt">Contact Us</a></li>  
+                <li><button class="login" id="loginButton" style="display:none;" data-text-en="Login" data-text-sr="Prijavi se">Log in</button></li>
+                <li><button class="logout" id="logoutButton" style="display:none;" data-text-en="Log out" data-text-sr="Odjavi se">Log out</button></li>
+               
             </ul>
         </nav>
     </header>

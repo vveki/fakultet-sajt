@@ -11,17 +11,18 @@
 </head>
 <body>
     <div class="top-of-top-section">
-        <span>Recycle plastic, SAVE OCEAN!</span>
+        <span data-text-en="Recycle plastic, SAVE OCEAN!" data-text-sr="Recikliraj plastiku, SAČUVAJ OKEAN!">Recycle plastic, SAVE OCEAN!</span>
         <div class="social-media">
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-youtube"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.x.com/"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
         </div>
+      
     </div>
     <div class="top-section">
         <header>
-            <div class="logo">
+            <div class="logo" onclick="window.location.href='/pages/home/home.html'">
                 <img src="\images\bali__indonesia__2_-removebg-preview.png" alt="Save Ocean Logo">
             </div>
             <nav>
@@ -31,49 +32,65 @@
                     <span></span>
                 </div>
                 <ul id="navLinks" class="hidden">
-                    <li><a href="/pages/home/home.html">Home</a></li>
-                    <li><a href="/pages/ocean/ocean.html">Ocean</a></li>
-                    <li><a href="/pages/gallery/gallery.html">Gallery</a></li>
-                    <li><a href="/pages/aboutUs/aboutUs.html">About Us</a></li>
-                    <li><a href="/pages/contactUs/contactUs.html">Contact Us</a></li>  
-                    <li><button class="login" id="loginButton" style="display:none;">Log in</button></li>
-                    <li><button class="logout" id="logoutButton" style="display:none;">Log out</button></li>
+                    <li>
+                        <div class="language-toggle">
+                         <span id="toggle-en" data-lang="en">EN</span>
+                         <span id="toggle-sr" data-lang="sr">SR</span>
+                        </div>
+                    </li>
+                    <li><a href="/pages/home/home.html" data-text-en="Home" data-text-sr="Početna">Home</a></li>
+                    <li><a href="/pages/ocean/ocean.html"  data-text-en="Oceans" data-text-sr="Okeni">Oceans</a></li>
+                    <li><a href="/pages/gallery/gallery.html" data-text-en="Gallery" data-text-sr="Galerija">Gallery</a></li>
+                    <li><a href="/pages/aboutUs/aboutUs.html" data-text-en="About Us" data-text-sr="O nama">About Us</a></li>
+                    <li><a href="/pages/contactUs/contactUs.html" data-text-en="Contact Us" data-text-sr="Kontakt">Contact Us</a></li>  
+                    <li><button class="login" id="loginButton" style="display:none;" data-text-en="Login" data-text-sr="Prijavi se">Log in</button></li>
+                    <li><button class="logout" id="logoutButton" style="display:none;" data-text-en="Log out" data-text-sr="Odjavi se">Log out</button></li>
+                   
                 </ul>
             </nav>
         </header>
 
         <section class="hero">
             <div class="hero-text">
-                <h1>SAVE OCEAN</h1>
-                <p>Lorem ipsum vivin injunjin gauedvnjfgkj skjd dhjksgdhdsgbkdsj</p>
+                <h1 data-text-en="SAVE OCEAN" data-text-sr="SPASIMO OKEAN">SAVE OCEAN</h1>
+                <p data-text-en="Lorem ipsum vivin injunjin gauedvnjfgkj skjd dhjksgdhdsgbkdsj" data-text-sr="Lorem ipsum vivin injunjin gauedvnjfgkj skjd dhjksgdhdsgbkdsj">Lorem ipsum vivin injunjin gauedvnjfgkj skjd dhjksgdhdsgbkdsj</p>
             </div>
         </section>
     </div>
 
+    
     <section class="carousel">
         <div class="card">
             <img src="/images/image (2).png" alt="Shark" style="height: 150px; width: auto; border-radius: 100%;">
-            <h3>Shark</h3>
-            <p>Sharks are ancient marine creatures and vital to ecosystems. Most are harmless to humans but face threats from fishing. Protecting them is crucial for ocean health.</p>
-            <button onclick="window.location.href='https://en.wikipedia.org/wiki/Shark'">View More</button>
+            <h3 data-text-en="Shark" data-text-sr="Ajkula">Shark</h3>
+            <p data-text-en="Sharks are ancient marine creatures and vital to ecosystems. Most are harmless to humans but face threats from fishing. Protecting them is crucial for ocean health."
+               data-text-sr="Ajkule su drevna morska bića važna za ekosisteme. Većina nije opasna za ljude, ali su ugrožene zbog ribolova. Njihova zaštita je ključna za zdravlje okeana.">
+               Sharks are ancient marine creatures and vital to ecosystems. Most are harmless to humans but face threats from fishing. Protecting them is crucial for ocean health.
+            </p>
+            <button onclick="window.location.href='https://en.wikipedia.org/wiki/Shark'" data-text-en="View More" data-text-sr="Pogledaj više">View More</button>
         </div>
         <div class="card">
             <img src="/images/image (3).png" alt="Dolphin" style="height: 150px; width: auto; border-radius: 100%;">
-            <h3>Dolphin</h3>
-            <p>Dolphins are smart and social marine mammals, known for their playfulness and echolocation skills. They are vital to the ocean's balance but face threats from pollution and fishing. Protecting them ensures healthier seas.</p>
-            <button onclick="window.location.href='https://en.wikipedia.org/wiki/Dolphin'">View More</button>
-        </div>
+            <h3 data-text-en="Dolphin" data-text-sr="Delfin">Dolphin</h3>
+            <p data-text-en="Dolphins are smart and social marine mammals, known for their playfulness and echolocation skills. They are vital to the ocean's balance but face threats from pollution and fishing. Protecting them ensures healthier seas."
+                data-text-sr="Delfini su pametni i društveni morski sisari, poznati po svojoj razigranosti i sposobnosti eholokacije. Ključni su za ravnotežu okeana, ali su ugroženi zbog zagađenja i ribolova. Njihova zaštita obezbeđuje zdravije more.">
+                Dolphins are smart and social marine mammals, known for their playfulness and echolocation skills. They are vital to the ocean's balance but face threats from pollution and fishing. Protecting them ensures healthier seas.
+            </p>
+            <button onclick="window.location.href='https://en.wikipedia.org/wiki/Dolphin'" data-text-en="View More" data-text-sr="Pogledaj više">View More</button>
+         </div>
         <div class="card">
-            <img src="/images/image (4).png" alt="Turtle" style="height: 150px; width: auto; border-radius: 100%;">
-            <h3>Turtle</h3>
-            <p>Turtles are ancient reptiles with protective shells and long migration routes. They are key to ocean ecosystems but endangered by habitat loss and pollution. Conservation is essential to their survival.</p>
-            <button onclick="window.location.href='https://en.wikipedia.org/wiki/Sea_turtle'">View More</button>
+                <img src="/images/image (4).png" alt="Turtle" style="height: 150px; width: auto; border-radius: 100%;">
+                <h3 data-text-en="Turtle" data-text-sr="Kornjača">Turtle</h3>
+                <p data-text-en="Turtles are ancient reptiles with protective shells and long migration routes. They are key to ocean ecosystems but endangered by habitat loss and pollution. Conservation is essential to their survival."
+                   data-text-sr="Kornjače su drevni gmizavci sa zaštitnim oklopom i dugim migracionim rutama. Ključne su za ekosisteme okeana, ali su ugrožene zbog gubitka staništa i zagađenja. Očuvanje je od suštinskog značaja za njihov opstanak.">
+                   Turtles are ancient reptiles with protective shells and long migration routes. They are key to ocean ecosystems but endangered by habitat loss and pollution. Conservation is essential to their survival.
+                </p>
+            <button onclick="window.location.href='https://en.wikipedia.org/wiki/Sea_turtle'" data-text-en="View More" data-text-sr="Pogledaj više">View More</button>
         </div>
     </section>
-
+        
     <footer>
-        <p>&copy; 2024 Velid Website. All rights reserved.</p>
-       
+        <p data-text-en="© 2024 Velid Website. All rights reserved." data-text-sr="© 2024 Velid Website. Sva prava zadržana.">© 2024 Velid Website. All rights reserved.</p>
     </footer>
     <script src="/script.js"></script>
 </body>
